@@ -1,0 +1,50 @@
+body {
+    background-color: #9ad3bc;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+#heading {
+    margin: 15px;
+    font-size: 3rem;
+    color: #af2d2d;
+}
+
+
+/* buttons */
+.btn {
+    width: 250px;
+    opacity: 1;
+    height: 200px;
+    margin: 20px 30px;
+    border: 10px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+
+/* when the button is pressed */
+.pressed {
+    border: 10px solid white;
+    background-color: grey;
+}
